@@ -1,0 +1,47 @@
+START
+
+REPEAT
+
+    DISPLAY "COMMUNITY WATER SUPPLY MONITORING SYSTEM"
+
+    INPUT tank_level
+
+    IF tank_level is not numeric THEN
+
+        DISPLAY "Please enter a valid numeric value"
+
+    ELSE IF tank_level < 0 OR tank_level > 100 THEN
+
+        DISPLAY "Invalid water level. Enter a value from 0 to 100"
+
+    ELSE
+
+        IF tank_level <= 20 THEN
+
+            status = "Critical"
+            DISPLAY "Arrange refilling as soon as possible"
+
+        ELSE IF tank_level <= 50 THEN
+
+            status = "Low"
+            DISPLAY "Plan to refill the tank soon"
+
+        ELSE
+
+            status = "Sufficient"
+            DISPLAY "Continue monitoring the water level"
+
+        ENDIF
+
+        DISPLAY "Water level: ", tank_level, "%"
+        DISPLAY "Water status: ", status
+
+    ENDIF
+
+    INPUT check_another
+
+UNTIL check_another = "No"
+
+DISPLAY "Thank you for using the system"
+
+END.
