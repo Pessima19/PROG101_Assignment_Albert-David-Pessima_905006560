@@ -1,0 +1,13 @@
+Start.
+Enter the current water tank level as a percentage.
+Check whether the entered value is numeric.
+If the value is not numeric, display an error message.
+If the value is less than 0 or greater than 100, display an invalid water level message.
+If the water level is less than or equal to 20%, display "Critical" and recommend refilling as soon as possible.
+If the water level is greater than 20% but less than or equal to 50%, display "Low" and recommend refilling the tank soon.
+If the water level is greater than 50% and less than or equal to 100%, display "Sufficient" and recommend continuing to monitor the water level.
+Display the water level, status, and recommendation.
+Ask whether the user wants to check another water level.
+If yes, repeat the process.
+If no, display a thank-you message.
+END.
