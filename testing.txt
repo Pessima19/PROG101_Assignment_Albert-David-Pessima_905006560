@@ -1,0 +1,39 @@
+Test 1:
+Input: Water level is 10%.
+Expected Output: Water status is Critical. Arrange refilling as soon as possible.
+
+Test 2:
+Input: Water level is 20%.
+Expected Output: Water status is Critical.
+
+Test 3:
+Input: Water level is 35%.
+Expected Output: Water status is Low. Plan to refill the tank soon.
+
+Test 4:
+Input: Water level is 50%.
+Expected Output: Water status is Low.
+
+Test 5:
+Input: Water level is 75%.
+Expected Output: Water status is Sufficient. Continue monitoring the water level.
+
+Test 6:
+Input: Water level is 100%.
+Expected Output: Water status is Sufficient.
+
+Test 7:
+Input: Water level is -5%.
+Expected Output: Invalid water level message.
+
+Test 8:
+Input: Water level is 120%.
+Expected Output: Invalid water level message.
+
+Test 9:
+Input: User enters letters instead of a number.
+Expected Output: Please enter a valid numeric value.
+
+Test 10:
+Input: User chooses "No" when asked to check another water level.
+Expected Output: Thank you for using the system.
