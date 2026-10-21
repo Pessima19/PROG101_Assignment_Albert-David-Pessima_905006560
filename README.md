@@ -1,4 +1,4 @@
-COMMUNITY WATER SUPPLY MONITORING SYSTEM
+# Community-Water-Supply-Monitoring-System-
 
 A simple system for monitoring community water supply levels.
 
